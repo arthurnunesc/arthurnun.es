@@ -1,60 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/style.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <script src="app/js/script.js"></script>
     <title>arthurnunesc</title>
-</head>
-<body>
-    <nav>
-        <div class="logo">
-            <a href="#"><h2>arthurnunesc</h2></a>
-          </div>
-        <ul class="nav-links">
-            <li><a href="#about">about</a></li>
-            <li><a href="https://dev.to/arthurnunesc">blog</a></li>
-            <li><a href="#projects">projects</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__logo">
+        <a href="#"><h2>arthurnunesc</h2></a>
+      </div>
+      <ul class="nav__links">
+        <li><a href="#about">about</a></li>
+        <li><a href="https://dev.to/arthurnunesc">blog</a></li>
+        <li><a href="#projects">projects</a></li>
+      </ul>
+      <div class="nav__burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </nav>
     <main>
-        <div id="#" class="home">
-            <img src="img/avatar.webp" alt="arthur" class="center" />
-            <div class="text">
-                <h2>Arthur Nunes</h2>
-                <h4>Python, Web Dev, Linux, weird keyboards</h4>
-                <p>
-                    ✉️ email: <a href="mailto:arthurnunesc@proton.me">arthurnunesc@proton.me</a><br>
-                    💬 telegram: <a href="https://t.me/arthurnunesc">t.me/arthurnunesc</a>
-                </p>
-                <ion-icon name="logo-github"></ion-icon>
-                <ion-icon name="logo-linkedin"></ion-icon>
-                <ion-icon name="logo-twitter"></ion-icon>
-            </div>
-            
+      <div id="#" class="hero">
+        <img src="img/avatar.webp" alt="arthur" class="center" />
+        <div class="hero__text">
+          <h2>Arthur Nunes</h2>
+          <h4>Python, Web Dev, Linux, weird keyboards</h4>
+          <p>
+            ✉️ email:
+            <a href="mailto:arthurnunesc@proton.me">arthurnunesc@proton.me</a
+            ><br />
+            💬 telegram:
+            <a href="https://t.me/arthurnunesc">t.me/arthurnunesc</a>
+          </p>
         </div>
-        <div id="about" class="about">
-            <h2><li>about</li></h2>
-            <h3>Hello!</h3>
-            <p>I’m Arthur, a Brazilian 🇧🇷 student based in Barcelona 🇪🇸. At the moment I am enrolled on a Web Development technical course(CFGS).</p>
-            <p>I have used Python, HTML, CSS, JavaScript and ShellScript in different personal projects. I feel comfortable working in both Windows or Linux environments and have a decent fluency in Git.</p>
-            <p>You can take a look at my projects on <a href="https://github.com/arthurnunesc">GitHub</a> and read some technical stuff on my <a href="https://dev.to/arthurnunesc">Dev.to page</a>.</p>
+        <div class="hero__icons">
+          <ion-icon name="logo-github"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
         </div>
-        <div id="projects">
-            <h2><li>projects</li></h2>
-            <div class="cards">
-
-            </div>
+      </div>
+      <div id="about" class="about">
+        <div class="about__text">
+          <h2><li>about</li></h2>
+          <h3>Hello!</h3>
+          <p>
+            I’m Arthur, a Brazilian 🇧🇷 student based in Barcelona 🇪🇸. At the
+            moment I am enrolled on a Web Development technical course(CFGS).
+          </p>
+          <p>
+            I have used Python, HTML, CSS, JavaScript and ShellScript in
+            different personal projects. I feel comfortable working in both
+            Windows or Linux environments and have a decent fluency in Git.
+          </p>
+          <p>
+            You can take a look at my projects on
+            <a href="https://github.com/arthurnunesc">GitHub</a> and read some
+            technical stuff on my
+            <a href="https://dev.to/arthurnunesc">Dev.to page</a>.
+          </p>
         </div>
+      </div>
+      <div id="projects">
+        <h2><li>projects</li></h2>
+        <div class="projects__cards"></div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
