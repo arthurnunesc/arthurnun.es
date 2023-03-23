@@ -3,21 +3,31 @@
 }
 
 .nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .nav__logo {
 }
 
 .nav__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
 }
 
 .nav__burger {
+  display: none;
 }
 
 .hero {
 }
 
 .hero__image {
+  width: 100%;
 }
 
 .hero__text {
